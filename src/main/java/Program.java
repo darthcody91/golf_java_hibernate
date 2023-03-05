@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 
+
 import java.util.Scanner;
 
 
@@ -14,26 +15,27 @@ public class Program {
         EntityTransaction transaction = entityManager.getTransaction();
 
         //Add scanner to get a user input of the strokes//
-
         Scanner userInput = new Scanner(System.in);
-        System.out.println("Hole 1: ");
-        int userHole1 = userInput.nextInt();
-        System.out.println("Hole 2: ");
-        int userHole2 = userInput.nextInt();
-        System.out.println("Hole 3: ");
-        int userHole3 = userInput.nextInt();
-        System.out.println("Hole 4: ");
-        int userHole4 = userInput.nextInt();
-        System.out.println("Hole 5: ");
-        int userHole5 = userInput.nextInt();
-        System.out.println("Hole 6: ");
-        int userHole6 = userInput.nextInt();
-        System.out.println("Hole 7: ");
-        int userHole7 = userInput.nextInt();
-        System.out.println("Hole 8: ");
-        int userHole8 = userInput.nextInt();
-        System.out.println("Hole 9: ");
-        int userHole9 = userInput.nextInt();
+
+            System.out.println("Hole 1: ");
+            int userHole1 = userInput.nextInt();
+            System.out.println("Hole 2: ");
+            int userHole2 = userInput.nextInt();
+            System.out.println("Hole 3: ");
+            int userHole3 = userInput.nextInt();
+            System.out.println("Hole 4: ");
+            int userHole4 = userInput.nextInt();
+            System.out.println("Hole 5: ");
+            int userHole5 = userInput.nextInt();
+            System.out.println("Hole 6: ");
+            int userHole6 = userInput.nextInt();
+            System.out.println("Hole 7: ");
+            int userHole7 = userInput.nextInt();
+            System.out.println("Hole 8: ");
+            int userHole8 = userInput.nextInt();
+            System.out.println("Hole 9: ");
+            int userHole9 = userInput.nextInt();
+
 
 
         try {
